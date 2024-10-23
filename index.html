@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <title>Artrohard</title>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="styles/style.css" type="text/css" />
-    <script src="scripts/main.js"></script>
+  <title>Arthrohard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles/style.css" rel="stylesheet" />
+  <link href="styles/futura_pt.css" rel="stylesheet" />
+  <script type="module" src="scripts/main.js"></script>
+  <script src="scripts/header.js"></script>
 </head>
 <body>
-    <h1>Hehe ^-^</h1>
+  <header class="header">
+    <div class="header__header-top">
+      <img class="header__logo" src="images/Arthrohard.svg" alt="Logo of the company" />
+
+      <nav class="header__navigation navigation">
+        <a class="navigation__link navigation__link--active" href="#what-sets-us-apart">Co nas wyróżnia</a>
+        <a class="navigation__link" href="#composition">Skład</a>
+        <a class="navigation__link" href="#goods">Produkty</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section" id="what-sets-us-apart"></section>
+  <section class="section" id="composition"></section>
+  <section class="section" id="goods"></section>
 </body>
 </html>
